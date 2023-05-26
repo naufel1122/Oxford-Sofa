@@ -379,20 +379,24 @@ body {
   .div-1 h5{
     color: white;
   }
-  .div-1 ul{
+  .div-1 ul a{
     text-decoration: none;
     color: white;
     font-size: 14px;
   }
   .div-1 ul:hover{
-    color: #c2c2c2;
+    color: #6c6b6b;
     text-decoration: underline;
     transition: 0.5s;
   }
+  /* ================== */
+.div-2{
+  margin-left: 100px;
+}
   .div-2 h5{
     color: white;
   }
-  .div-2 ul{
+  .div-2 ul a{
     text-decoration: none;
     color: white;
     font-size: 14px;
