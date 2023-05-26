@@ -272,14 +272,14 @@ body {
 /* ===================== */
 .subscription {
   background-color: #ffffff;
-  height: 900px;
+  height:1500px;
 }
 .tss {
   text-align: center;
 }
 .tss h1 {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;"Montserrat", sans-serif
+  font-weight: bold;
 }
 .tss p {
   font-family: "Dosis", sans-serif;
@@ -313,3 +313,10 @@ body {
 	font-family: "Dosis", sans-serif;
 	font-size: 20px;
   }
+
+
+  /* ========= */
+  .img-div{
+	 display: flex;
+	justify-content: center;
+	}
