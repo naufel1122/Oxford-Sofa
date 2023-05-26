@@ -272,7 +272,7 @@ body {
 /* ===================== */
 .subscription {
   background-color: #ffffff;
-  height:1500px;
+  height:1400px;
 }
 .tss {
   text-align: center;
@@ -367,3 +367,38 @@ body {
       flex-direction: column;
     }
    }
+
+   /* ================== */
+   footer{
+    background-color: #12212b;    
+  }
+  .second{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div-1 h5{
+    color: white;
+  }
+  .div-1 ul{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  .div-1 ul:hover{
+    color: #c2c2c2;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .div-2 h5{
+    color: white;
+  }
+  .div-2 ul{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  .div-2 ul:hover{
+    color: #c2c2c2;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
