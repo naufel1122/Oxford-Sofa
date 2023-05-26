@@ -118,57 +118,57 @@ font-family: 'Roboto', sans-serif;
 .nav-btn{
 	font-size: large;
 	height:3rem;
-	width: 8rem;
+	width: 9.5rem;
 	background-color: transparent;
 	border-radius: 30px;
+	color: #fff;
+	font-weight:bolder;
+	text-shadow: 0px 4px 5px gray;
+	transition: all 0.5s;
+}
+.nav-btn:hover{
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* TOP WORK ENDS HERE */
 /* ================ */
 
 .tos{
-	display: flex;
+	/* display: flex; */
 	/* flex-direction: row; */
 	justify-content: center;
 	object-fit: cover;
 	min-height: 100%;
+	text-align: center;
 }
-.text-line {
-	object-fit: cover;
+.tos h1{
+	font-size: 4rem;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tos h5{
+font-size: 1.5rem;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+}
+.tos button{
+	height: 60px;
+	width: 150px;
+	font-size: 1.5rem;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border: 2px solid gray;
+	border-radius: 1.5rem;
+	background-color: black;
+	color: white;
+	display: inline-block;
+}
 
-	height: 120px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	background-color: #eeebe7;
-}
-.text-line  .one{
-	text-align: center;
-	height: 100%;
-	width: 50%;
-	border: 2px solid gray;
-	/* margin-left: 10px; */
-	font-family: Arial, Helvetica, sans-serif;
-}
-.text-line  .one h2{
-	font-family:Georgia, 'Times New Roman', Times, serif;
-	
-}
-.text-line  .two{
-	height: 100%;
-	text-align: center;
-	width: 50%;
-	border: 2px solid gray;
-}
-.text-line  .two h2{
-	font-family:Georgia, 'Times New Roman', Times, serif;
-}
 @media screen and (max-width: 768px){
-	 img {
-	  min-height: 216px;
-  }}
+	img {
+		min-height: 216px;
+	}}
+	
+	
+	/* ================ */
   
 
 /* =================== */
