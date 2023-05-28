@@ -324,6 +324,9 @@ body {
 	justify-content: center;
   cursor: pointer;
 	}
+  .img-div img{
+    height: 50px;
+  }
   @media screen and (max-width:768px) {
     .img-div{
       flex-direction:column;
@@ -335,44 +338,45 @@ body {
     flex-direction:row;
    justify-content: center;
   cursor: pointer;
-
+   }
+   .img-div-2 img{
+    height: 50px;
    }
    @media screen and (max-width:768px) {
-     .img-div-2{
+     .img-div-2 {
        flex-direction:column;
+       height: 50px;
  
      }
    }
    /* =================== */
    /* =================== */
-.last{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1300px;
-}
-   .tss-3{
+   .card{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    width: 600px;
    }
-   .p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left:10px ;
-  } 
-   .tss-3 img{
-    height: 400px;
-    width: 400px;
+   .thumb{
+    flex: 1 1 500px;
+    height: 450px;
+    background-color: #12212b;
+    background-image: url('./images/welcome-4seating.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
    }
-   @media screen and (max-width:768) {
-    .last{
-      flex-direction: column;
-    }
+   
+   .content{
+    flex: 2 1 300px;
    }
+
 
    /* ================== */
    footer{
-    background-color: #12212b;    
+    background-color: #12212b;   
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -999; 
   }
   .second{
     display: flex;
