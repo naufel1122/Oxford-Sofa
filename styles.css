@@ -351,7 +351,10 @@ transition: all .8s;
   @media screen and (max-width:768px) {
     .img-div{
       flex-direction:column;
-
+    }
+    .img-div img{
+      width: 13em;
+      margin: 0px auto;
     }
   }
   .img-div-2{
@@ -367,97 +370,56 @@ transition: all .8s;
      .img-div-2 {
        flex-direction:column;
        height: 50px;
- 
      }
+     .img-div-2 img{
+       height: 1rem;
+      width: 13em;
+      margin: 0px auto;
+    }
    }
    /* =================== */
    /* =================== */
-   .blog-post {
-    display: flex;
-    /* align-items: center; */
-    max-width: 90rem;
-    background-color: #fff;
-    padding: 2.5rem;
-    box-shadow: 0 1.4rem 8rem rgba(0, 0, 0, 0.2);
-    border-radius: 0.8rem;
-    z-index: 999;
-  }
-  .blog-post__img {
-    position: relative;
-    min-width: 35rem;
-    max-width: 35rem;
-    height: 30rem;
-    transform: translateX(-8rem);
-  }
-  .blog-post__img img {
-    display: block;
+ .mmm{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: #666666; */
+ }
+ .box{
+  width: 50%;
+ }
+ .box img{
+  width: 100%;
+  height: 500px;
+ }
+.tttt{
+  width: 50%;
+  height: 500px;
+  text-align: center;
+}
+.tttt h1{
+  font-size: 1.5em;
+  font-weight: 300;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tttt p{
+  font-size: .9em;
+  margin-top: 2em;
+}
+@media (max-width:1590px) {
+  .box{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.8rem;
+    margin-top: 4em;
   }
-  .blog-post__img::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.05);
-    border-radius: 0.8rem;
-    opacity: 0.5;
+  .tttt{
+    margin-top: 1.2em;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 3em;
   }
-  .blog-post__date span {
-    display: block;
-    color: #8e8c8c;
-    font-weight: 600;
-    margin: 0.5rem 0;
-  }
-  .blog-post__title {
-    font-size: 2.5rem;
-    margin: 1.5rem 0 2rem;
-    text-transform: uppercase;
-    color: #4facfe;
-  }
-  .blog-post__info p {
-    margin-bottom: 3rem;
-    color: rgba(0, 0, 0, 0.7);
-  }
-  .blog-post__cta {
-    display: inline-block;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    padding: 1.5rem 3rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 0.8rem;
-  }
-  .blog-post__cta:hover {
-    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
-  }
-  @media (max-width: 1068px) {
-    .blog-post {
-      max-width: 80rem;
-    }
-    .blog-post__img {
-      min-width: 30rem;
-      max-width: 30rem;
-    }
-  }
-  @media (max-width: 868px) {
-    .blog-post {
-      max-width: 70rem;
-    }
-  }
-  @media (max-width: 768px) {
-    .blog-post {
-      padding: 2.5rem;
-      flex-direction: column;
-    }
-    .blog-post__img {
-      min-width: 100%;
-      transform: translate(0, -8rem);
-    }
-  }
-
+}
    /* ================== */
    footer{
     background-color: #12212b;   
@@ -468,6 +430,7 @@ transition: all .8s;
   .second{
     display: flex;
     flex-wrap: wrap;
+    /* padding-inline: 8em; */
   }
   .div-1 h5{
     color: white;
@@ -499,3 +462,38 @@ transition: all .8s;
     text-decoration: underline;
     transition: 0.5s;
   }
+  /* ==================== */
+  .div-3{
+    margin-left: 100px;
+  }
+    .div-3 h5{
+      color: white;
+    }
+    .div-3 ul a{
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    }
+    .div-3 ul:hover{
+      color: #c2c2c2;
+      text-decoration: underline;
+      transition: 0.5s;
+    }
+    /* ==================== */
+  .div-4{
+    margin-left: 100px;
+  }
+    .div-4 h5{
+      color: white;
+    }
+    .div-4 ul a{
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    }
+    .div-4 ul:hover{
+      color: #c2c2c2;
+      text-decoration: underline;
+      transition: 0.5s;
+    }
+    
