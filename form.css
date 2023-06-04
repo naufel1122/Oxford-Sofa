@@ -24,8 +24,9 @@ top: 0;
 left: 0;
 width: 100%;
 /* padding: 20px 100px; */
-background: rgba(255, 255, 255, 0.1);
+background: rgba(22 22 23 / 80%);
 backdrop-filter: blur(15px);
+
 z-index: 999;
 }
 .header::before {
@@ -44,12 +45,17 @@ transparent
 );
 }
 .navbar-brand {
-color: #bab8b8;
-text-decoration: none;
-font-size: 37px;
-font-weight: 900;
-font-family: "Roboto", " sans-serif";
-}
+    color: #dbdbdb;
+    /* text-shadow:2px 1px rgb(159, 158, 158) ; */
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: "bebas", " sans-serif";
+  }
+  .navbar-brand:hover{
+  color:rgb(51, 51, 51);
+  transition: all .8s;
+  }
 .navbar-toggler {
 /* color: black; */
 background-color: rgba(148, 141, 141, 0.181);
@@ -83,7 +89,19 @@ transition: all 0.5s;
 .nav-btn:hover {
 background-color: rgba(0, 0, 0, 0.12);
 }
-
+.account{
+    height: 2em;
+    width: 2em;
+    text-decoration: none;
+    color: #fff;
+  }
+  .add-card{
+    margin-left:10px ;
+    height: 1.6em;
+    width: 1.6em;
+    text-decoration: none;
+    color: #fff;
+  }
 /* TOP WORK ENDS HERE */
 /* ================ */
 
